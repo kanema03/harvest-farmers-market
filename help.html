@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+
+<style>
+*{
+                box-sizing: border-box;
+}
+input {
+		background: whitesmoke;
+		color: black;
+	}
+  .topnav {
+         overflow: hidden;
+         background-color: rgba(17, 16, 16, 0.8);
+         
+
+ }
+
+.topnav a {
+        float: left;
+        display: block;
+        color:white;
+        font-size: 20px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+.topnav a:hover {
+        background-color:rgb(104, 87, 211);
+        color: rgb(31, 2, 2);
+}
+.topnav a.active{
+        background-color:black;
+        color:white;
+}
+.topnav .search-container button{
+        float: left;
+        padding:6px;
+        margin-top:8px;
+        margin-left:16px;
+        background: white;
+        font-size:17px;
+        border:non;
+        cursor: pointer;       
+}
+.topnav .search-container button:hover{
+        background:rgb(104, 87, 211);
+} 
+.topnav input[type=text]{
+        padding:6px;
+        margin-top:8px;
+        font-size:17px;
+        border:1px solid 
+}
+.footer {
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        color: whitesmoke;;
+        background-color:rgba(17, 16, 16, 0.8);
+        
+       
+}
+	form {
+		text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+		
+		
+	}
+	legend {
+		text-align: center;
+
+	}
+	fieldset {
+		display: inline-block;
+		align-content:center;
+    }
+ body {
+         font-family: Arial;
+         padding: 10px;
+         background:rgba(17, 16, 16, 0.8);
+         
+
+ }
+ 
+ .card {
+        background-color: rgb(214, 189, 108);
+        padding: 20px;
+        margin-top: 20px;
+  
+}
+
+ </style>
+ <body>
+  <div class="topnav">
+
+      
+    <a  href="home page.php"style="float:right">Log Out</a>       
+    <a href="help.html"style="float:right">Help</a>
+    <a href="services.html"style="float:right">Services</a>
+    <a href="contact us.html"style="float:right">Contact Us</a>
+    <a  href="posts.html"style="float:right">Posts</a>
+    <a href="settings page.html"style="float:right">
+    <img src="image/settings.jpg" width="50px" height="30px"></a>
+    <a href="harvest.php" style="float:right">
+    <img src="image/home.png" width="50px" height="30px"></a>
+    <a  href="harvest.php"style="float:left">
+    <img src="image/F M.jpg" width="50px" height="35px"></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+</a>
+</div>
+<div class="card">
+ <center>
+   <b
+   ><I>
+     <h2>welcome to the help center please let us know what we can help you with</h2>
+    </I>
+  </b>
+</center>
+  
+    <form action="harvest.php" method="">
+    <fieldset class="box">
+        <br>
+        <br>
+        
+       <legend>
+       <img src="image/help b.jpg" alt="avatar" class="avatar" width="120px" height="100px">
+        
+       <br>
+
+          </legend> 
+       
+          <center>
+            <I>
+              <B>
+                <h6>help center</h6>
+              </B>
+            </I>
+          </center>	
+          
+          <label>
+              <b>type problem</b>
+          </label>
+              <textarea rows="2" cols="120" name="type problem" placeholder="what can we help with" required="required"></textarea>
+          </label>
+          <br>
+          <br>
+          <p>
+            
+          </label>
+        </p>
+        <br>
+        <br>
+       <input type="submit" value="submit">
+    </fieldset>
+
+</form>
+<br>
+<b align="right">
+<img  src="image/help c.png" alt="avatar" class="avatar" width="120px" height="100px"> 
+</b>
+<h3><b><i>THANK YOU for reaching us your problem will be sorted out shorlty
+  &nbsp;
+   &nbsp;
+   
+        </i>
+         </b>
+          </h3>
+          <b align="left">
+            <img src="image/help logo.png" alt="avatar" class="avatar" width="120px" height="100px">
+          </b>
+          </div> 
+          <div class="footer">
+ 
+   
+            <center><h6>
+                     <i>follow us</h6>
+                      
+                      </i>
+            </center>
+            <br>
+            <p></p>
+          <p align="center">
+                    <a class="active"href="https://www.linkedin.com"> 
+                      <img src="image/linkedin.png" alt="avatar" class="avatar" width="40px" height="30px">
+                      </a>
+                          &nbsp;
+                            &nbsp;
+                              &nbsp;
+                                &nbsp;
+                                  <a  class="active"href="https://twitter.com/?lang=en">
+                                  <img src="image/twitter.png" alt="avatar" class="avatar" width="40px" height="30px"></a>
+                                &nbsp;
+                              &nbsp;
+                             &nbsp;
+                          &nbsp;
+                    <a class="active" href="https://mail.google.com/mail/u/0/#inbox">
+                  <img src="image/gmail.png" alt="avatar" class="avatar" width="40px" height="30px"></a>
+                  &nbsp;
+                 &nbsp;
+               &nbsp;
+              &nbsp;
+            <a  class="active" href="https://web.facebook.com/?_rdc=1&_rdr">
+           <img src="image/facebook.png" alt="avatar" class="avatar" width="40px" height="30px"></a>
+                    
+                      
+          </div>
+</body>
+
+</html>
